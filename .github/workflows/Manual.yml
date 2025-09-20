@@ -12,6 +12,13 @@ on:
         description: 'Age'
         type: Number
         required: true
+
+      gender:
+        description: 'Gender'
+        type: Choice
+        options:
+          - Male
+          - Female
     
 jobs:
   Demo:
@@ -23,3 +30,6 @@ jobs:
 
       - name: Age
         run: echo ${{ inputs.age }}
+
+      - name: Gender
+        run: echo ${{ inputs.gender }}
