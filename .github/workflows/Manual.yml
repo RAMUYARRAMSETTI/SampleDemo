@@ -22,4 +22,4 @@ jobs:
         run: echo "${{ inputs.name }}"
 
       - name: Age
-        run: ${{ inputs.age }}
+        run: echo ${{ inputs.age }}
