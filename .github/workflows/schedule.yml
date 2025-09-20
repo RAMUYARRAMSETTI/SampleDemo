@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Log Time
-    - run: |
+      run: |
         current_date_time=$(date)
         echo "Current Date and Time: $current_date_time"
     
