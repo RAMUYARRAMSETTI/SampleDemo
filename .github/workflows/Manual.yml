@@ -2,13 +2,12 @@ name: Manual Workflow
 
 on:
   workflow_dispatch:
-  inputs:
-    name:
-    description: 'Name'
-    type: string
-    default: 'Test'
+    inputs:
+      name:
+        description: 'Name'
+        type: string
+        default: 'Test'
     
-
 jobs:
   Demo:
     runs-on: ubuntu-latest
