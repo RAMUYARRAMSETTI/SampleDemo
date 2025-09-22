@@ -7,6 +7,22 @@ on:
         description: 'Name'
         type: string
         default: 'Test'
+
+      age:
+        description: 'Age'
+        type: Number
+        required: true
+
+      gender:
+        description: 'Gender'
+        type: choice
+        options: 
+          - Male
+          - Female
+
+      married:
+        description: "Is Married ?"
+        type: boolean
     
 jobs:
   Demo:
@@ -15,3 +31,14 @@ jobs:
     steps:
       - name: Greetings
         run: echo "${{ inputs.name }}"
+
+      - name: Age
+        run: echo ${{ inputs.age }}
+
+      - name: Gender
+        run: echo ${{ inputs.gender }}
+
+      - name: Married
+        run: echo ${{ inputs.married }}
+
+        
