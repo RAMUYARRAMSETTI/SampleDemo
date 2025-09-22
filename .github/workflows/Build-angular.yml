@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 jobs:
-  Build-angular:
+  build-angular:
     runs-on: ubuntu-latest
 
     steps:
