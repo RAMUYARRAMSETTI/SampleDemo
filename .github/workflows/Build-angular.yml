@@ -18,10 +18,10 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
-        #working-directory: ./SampleDemo
+        working-directory: ./SampleDemo
 
       - name: Build
         run: npm run build
-        #working-directory: ./SampleDem
+        working-directory: ./SampleDemo
 
 
