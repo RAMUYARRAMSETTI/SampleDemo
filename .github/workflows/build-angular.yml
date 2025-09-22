@@ -22,5 +22,3 @@ jobs:
 
       - name: Build
         run: npm run build
-          
-        # run: echo "Hello World  !"
