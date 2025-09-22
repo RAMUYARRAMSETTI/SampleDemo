@@ -22,6 +22,6 @@ jobs:
 
       - name: Build
         run: npm run build
-        #working-directory: ./SampleDemo
+        #working-directory: ./SampleDem
 
 
